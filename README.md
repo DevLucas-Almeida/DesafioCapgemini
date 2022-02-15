@@ -10,6 +10,7 @@ Desafio com o objetivo de testar conhecimentos em lógica de programação. São
 # Tecnologias utilizadas
 
 - Java 11
+- Maven 3.6
 
 # Ambiente de desenvolvimento
 
@@ -17,12 +18,17 @@ Desafio com o objetivo de testar conhecimentos em lógica de programação. São
 
 # Como executar o projeto
 
-Pré-requisitos: Java 11
+Pré-requisitos: Java 11, Maven 3.6 e Intellij idea
 
 ```bash
 # clonar repositório
-git clone 
+git clone git@github.com:DevLucas-Almeida/DesafioCapgemini.git
 
+#Para construir o projeto com o Maven, executar os comando abaixo:
+mvn clean install
+
+#Para rodar:
+mvn test
 
 ```
 
